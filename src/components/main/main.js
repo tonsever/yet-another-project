@@ -6,7 +6,7 @@ class Main extends React.Component {
     const { image, caption, title, description } = this.props.mainData;
     return (
       <main className={mainStyles.main}>
-        <img className={mainStyles.image} src={image} alt="фото собачек!" />
+        <img className={mainStyles.image} src={image} alt="Фото собачек!" />
         <span className={mainStyles.caption}>{caption}</span>
         <h2 className={mainStyles.title}>{title}</h2>
         <p className={mainStyles.description}>{description}</p>
